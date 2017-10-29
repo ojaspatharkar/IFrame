@@ -1,0 +1,8 @@
+# gitignore
+node_modules
+src
+webpack.config.js
+.babelrc
+yarn.lock
+app.js
+index.html
