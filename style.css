@@ -1,0 +1,16 @@
+.loading
+{
+  fill: rgb(68, 68, 68);
+  height: 64px;
+  width: 64px;
+  left: 40px;
+  position : relative
+}
+
+.loadingPanel
+{
+  width : 140px;
+  position : relative;
+  top : 35%;
+  left : 35%;
+}

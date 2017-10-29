@@ -1,0 +1,28 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "keywords":[
+    "iframe",
+    "pageloader",
+    "IFrameLoader",
+    "react-iframe.js"
+  ],
+  "repository":"https://github.com/ojaspatharkar/IFrame",
+  "author": "Ojas Patharkar",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.28.7",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-iframe": "^1.0.7",
+    "react-loading": "^1.0.0",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.2"
+  }
+}
