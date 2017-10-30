@@ -19,8 +19,8 @@ class iFrameLoader extends React.Component
     }
   }
 
-  onLoaded(a,b,c){
-    
+  onLoaded(){
+
     this.setState({loading : false},()=>{
       if(this.props.onLoad)
         this.props.onLoad();
@@ -42,7 +42,7 @@ class iFrameLoader extends React.Component
               position : this.props.position || 'absolute',
               border : (this.props.showBorder) ? "1px solid grey" : "0px"
             },this.props.style || {})}
-            onLoad = {(a,b,c)=>this.onLoaded(a,b,c)}
+            onLoad = {()=>this.onLoaded()}
           />
           {
             ((this.state.loading || this.props.url == '') && this.props.showLoading)
